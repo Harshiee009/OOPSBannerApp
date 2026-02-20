@@ -1,19 +1,35 @@
-/**
- * OOPSBannerApp
- * 
- * This application prints "OOPS" (Object-Oriented Programming System)
- * to the console.
- * 
- * @author Harsh
- * @version 1.0
- */
 public class OOPSBannerApp {
 
-    /**
-     * Entry point of the application
-     * @param args command-line arguments
-     */
     public static void main(String[] args) {
-        System.out.println("OOPS");
+
+        // Each letter is 9 characters wide and 7 lines tall
+
+        // Line 1
+        System.out.println(
+                "  *****  " + "  *****  " + "  ****** " + "  ****** ");
+
+        // Line 2
+        System.out.println(
+                " *     * " + " *     * " + " *     * " + " *       ");
+
+        // Line 3
+        System.out.println(
+                " *     * " + " *     * " + " *     * " + " *       ");
+
+        // Line 4
+        System.out.println(
+                " *     * " + " *     * " + "  ****** " + "  *****  ");
+
+        // Line 5
+        System.out.println(
+                " *     * " + " *     * " + " *       " + "       * ");
+
+        // Line 6
+        System.out.println(
+                " *     * " + " *     * " + " *       " + "       * ");
+
+        // Line 7
+        System.out.println(
+                "  *****  " + "  *****  " + " *       " + "  *****  ");
     }
 }
