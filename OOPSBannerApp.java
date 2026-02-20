@@ -2,53 +2,56 @@ public class OOPSBannerApp {
 
     public static void main(String[] args) {
 
-        // Line 1
-        System.out.println(String.join(" ",
+        // Step 1: Create String Array to store 7 lines
+        String[] banner = new String[7];
+
+        // Step 2: Populate array using String.join()
+
+        banner[0] = String.join(" ",
                 "  *****  ",
                 "  *****  ",
                 "  ****** ",
-                "  ***** "));
+                "  ****** ");
 
-        // Line 2
-        System.out.println(String.join(" ",
-                "  *     * ",
+        banner[1] = String.join(" ",
                 " *     * ",
                 " *     * ",
-                " *       "));
+                " *     * ",
+                " *       ");
 
-        // Line 3
-        System.out.println(String.join(" ",
+        banner[2] = String.join(" ",
                 " *     * ",
                 " *     * ",
                 " *     * ",
-                " *       "));
+                " *       ");
 
-        // Line 4
-        System.out.println(String.join(" ",
+        banner[3] = String.join(" ",
                 " *     * ",
                 " *     * ",
                 "  ****** ",
-                "  *****  "));
+                "  *****  ");
 
-        // Line 5
-        System.out.println(String.join(" ",
+        banner[4] = String.join(" ",
                 " *     * ",
                 " *     * ",
                 " *       ",
-                "       * "));
+                "       * ");
 
-        // Line 6
-        System.out.println(String.join(" ",
+        banner[5] = String.join(" ",
                 " *     * ",
                 " *     * ",
                 " *       ",
-                "       * "));
+                "       * ");
 
-        // Line 7
-        System.out.println(String.join(" ",
+        banner[6] = String.join(" ",
                 "  *****  ",
                 "  *****  ",
                 " *       ",
-                "  *****  "));
+                "  *****  ");
+
+        // Step 3: Print using Enhanced For Loop
+        for (String line : banner) {
+            System.out.println(line);
+        }
     }
 }
