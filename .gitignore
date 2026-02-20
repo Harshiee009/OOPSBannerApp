@@ -1,0 +1,15 @@
+# Ignore text file
+file.txt
+
+# Ignore all log files
+*.log
+
+# Ignore a folder
+node_modules/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore compiled C++ files
+*.exe
+*.out
